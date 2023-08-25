@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maksat sen bay</title>
+    <link rel="stylesheet" href="static/style/style.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="page">
+        <div class="header">
+            <div>
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+            </div>
+            <ol>
+                <a href="#">
+                    <li>Общее представление</li>
+                </a>
+                <a href="#">
+                    <li>Браузеры</li>
+                </a>
+                <a href="#">
+                    <li>Версии</li>
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+            </ol>
+            <ol>
+                <a href="#">
+                    <li>Общее представление</li>
+                </a>
+                <a href="#">
+                    <li>Браузеры</li>
+                </a>
+                <a href="#">
+                    <li>Версии</li>
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+            </ol>
+            <ol>
+                <a href="#">
+                    <li>Общее представление</li>
+                </a>
+                <a href="#">
+                    <li>Браузеры</li>
+                </a>
+                <a href="#">
+                    <li>Версии</li>
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+            </ol>
+            <ol>
+                <a href="#">
+                    <li>Общее представление</li>
+                </a>
+                <a href="#">
+                    <li>Браузеры</li>
+                </a>
+                <a href="#">
+                    <li>Версии</li>
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+            </ol>
+            <ol>
+                <a href="#">
+                    <li>Общее представление</li>
+                </a>
+                <a href="#">
+                    <li>Браузеры</li>
+                </a>
+                <a href="#">
+                    <li>Версии</li>
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+            </ol>
+            <ol>
+                <a href="#">
+                    <li>Общее представление</li>
+                </a>
+                <a href="#">
+                    <li>Браузеры</li>
+                </a>
+                <a href="#">
+                    <li>Версии</li>
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+                <a href="#">
+                    <li>Структура HTML-документа
+                </a>
+            </ol>
+
+        </div>
+        <div class="section">
+
+            <div class="nav-conteiner">
+                <nav>
+                    <ul>
+                        <a href="#">
+                            <li>Статья</li>
+                        </a>
+                        <a href="#">
+                            <li>Обсуждения</li>
+                        </a>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <a href="#">
+                            <li>Читать</li>
+                        </a>
+                        <a href="#">
+                            <li>Текущая версия</li>
+                        </a>
+                        <a href="#">
+                            <li>Править</li>
+                        </a>
+                        <a href="#">
+                            <li>Править код</li>
+                        </a>
+                        <a href="#">
+                            <li>История</li>
+                        </a>
+                        <input type="text" placeholder="agtarmak">
+                    </ul>
+                </nav>
+            </div>
+            <div class="text-page">
+                <h1>HTML</h1>
+                <div class="img-conteiner">
+                    <div>
+                        <img class="logo-html"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/80px-HTML5_logo_and_wordmark.svg.png"
+                            alt="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/HTML.svg/274px-HTML.svg.png"
+                            alt="фото с интернета">
+                    </div>
+                </div>
+                <p>ЭHTML (от англ. <span> HyperText Markup Language</span> — «язык гипертекстовой разметки») —
+                    стандартизированный
+                    язык
+                    <a href="https://youtube.com" target="_blank">гипертекстовой</a> разметки документов для просмотра
+                    веб-страниц в
+                    браузере. Веб-браузеры получают HTML документ от
+                    сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в
+                    интерфейс,
+                    который
+                    будет отображаться на экране монитора.
+                </p>
+
+                <p>Элементы HTML являются строительными блоками HTML страниц. С помощью HTML разные конструкции,
+                    изображения и
+                    другие объекты, такие как интерактивная веб-форма, могут быть встроены в отображаемую страницу. HTML
+                    предоставляет средства для создания заголовков, абзацев, списков, ссылок, цитат и других элементов.
+                    Элементы
+                    HTML выделяются тегами, записанными с использованием угловых скобок. Такие теги, как img / и input
+                    /,
+                    напрямую вводят контент на страницу. Другие теги, такие как
+                    p, окружают и оформляют текст внутри себя и могут включать другие теги в качестве подэлементов.
+                    Браузеры не
+                    отображают HTML-теги, но используют их для интерпретации содержимого страницы.</p>
+                <p>Язык XHTML является более строгим вариантом HTML, он следует синтаксису XML и является приложением
+                    языка XML
+                    в
+                    области разметки гипертекста.</p>
+                <p>В HTML можно встроить программный код на языке программирования JavaScript, для управления поведением
+                    и
+                    содержанием веб-страниц. Также включение CSS в HTML позволяет задавать внешний вид и макет страницы.
+                </p>
+
+                <div class="list-conteiner">
+                    <p>Содержание</p>
+                    <ol>
+                        <a href="#">
+                            <li>Общее представление</li>
+                        </a>
+                        <a href="#">
+                            <li>Браузеры</li>
+                        </a>
+                        <a href="#">
+                            <li>Версии</li>
+                        </a>
+                        <a href="#">
+                            <li>Структура HTML-документа
+                        </a>
+                        <ol>
+                            <a href="#">
+                                <li>Семантические теги</li>
+                            </a>
+                            <a href="#">
+                                <li>Специальные символы</li>
+                            </a>
+                        </ol>
+                        <a href="#">
+                            <li>Браузерные войны</li>
+                        </a>
+                        <a href="#">
+                            <li>См. также</li>
+                        </a>
+                        <a href="#">
+                            <li>Примечания</li>
+                        </a>
+                        <a href="#">
+                            <li>Литература</li>
+                        </a>
+                        <a href="">
+                            <li>Ссылки</li>
+                        </a>
+                    </ol>
+                </div>
+                <h2>Общее представление</h2>
+                <p>Язык гипертекстовой разметки HTML был разработан британским учёным Тимом Бернерсом-Ли приблизительно
+                    в
+                    1986—1991
+                    годах в стенах ЦЕРНа в Женеве в Швейцарии[3]. HTML создавался как язык для обмена научной и
+                    технической
+                    документацией, пригодный для использования людьми, не являющимися специалистами в области вёрстки.
+                    HTML
+                    успешно
+                    справлялся с проблемой сложности SGML путём определения небольшого набора структурных и
+                    семантических
+                    элементов
+                    — дескрипторов. Дескрипторы также часто называют «тегами». С помощью HTML можно легко создать
+                    относительно
+                    простой, но красиво оформленный документ. Помимо упрощения структуры документа, в HTML внесена
+                    поддержка
+                    гипертекста. Мультимедийные возможности были добавлены позже.</p>
+                <p>Первым общедоступным описанием HTML был документ «Теги HTML», впервые упомянутый в Интернете Тимом
+                    Бернерсом-Ли в
+                    конце 1991 года,[4][5]. В нём описываются 18 элементов, составляющих первоначальный, относительно
+                    простой
+                    дизайн
+                    HTML. За исключением тега гиперссылки, на них сильно повлиял SGMLguid, внутренний формат
+                    документации,
+                    основанный на стандартном обобщенном языке разметки (SGML), в CERN. Одиннадцать из этих элементов
+                    всё ещё
+                    существуют в HTML 4[6].</p>
+                <p>Изначально язык HTML был задуман и создан как средство структурирования и форматирования документов
+                    без их
+                    привязки к средствам воспроизведения (отображения). В идеале, текст с разметкой HTML должен был без
+                    стилистических и структурных искажений воспроизводиться на оборудовании с различной технической
+                    оснащённостью
+                    (цветной экран современного компьютера, монохромный экран органайзера, ограниченный по размерам
+                    экран
+                    мобильного
+                    телефона или устройства и программы голосового воспроизведения текстов). Однако современное
+                    применение HTML
+                    очень далеко от его изначальной задачи. Например, тег
+                    table предназначен для создания в документах таблиц, но иногда используется и для оформления
+                    размещения
+                    элементов
+                    на странице. С течением времени основная идея платформонезависимости языка HTML была принесена в
+                    жертву
+                    современным потребностям в мультимедийном и графическом оформлении.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
